@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Orbitron;
+    src: url("images/Orbitron-VariableFont_wght.ttf")
+}
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.title {
+    background-color: rgba(0, 0, 0, 0.653);
+    color: white;
+    margin-top: 30%;
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    height: 100px;
+    font-family: Orbitron, sans-serif;
+}
+
+.leftsquare {
+    background-image: url("images/backgroundsignup.png");
+    background-size: contain;
+    height: 100vh;
+    width: 40vw;
+}
+
+.rightsquare {
+    height: 100vh;;
+    width: 60vw;
+    background-color: rgb(197, 255, 197);
+    color: black;
+    font-size: 24px;
+}
+
+.description {
+    padding: 30px;
+    line-height: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.form_data {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.2rem;
+    padding: 50px;
+    box-shadow: 2px 2px 8px green;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: white;
+    font-size: 18px;
+}
+
+.form_submit {
+   margin: 20px;
+    
+}
+input, button {
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 14vw;
+
+
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+button {
+    font-family: Orbitron, sans-serif;
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    display: inline-block;
+   
+    margin-top: 20px;
+    height: 5vh;
+}
+
+button:hover {
+    color:white;
+    background-color: green;
+}
+
+#terms_and_conditions {
+    width: 20px;
+    height: 20px;
+}
+
+.terms {
+    font-size: 18px;
+}
+
+.data {
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form_submit {
+    padding: 20px;
+}
+
+.log-in {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 10px;
+}

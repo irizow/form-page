@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+    <title>Sign Up</title>
+
+</head>
+<body>
+    <div class="leftsquare">
+        <h1 class="title">Welcome to Kudat Town</h1>
+    </div>
+    <div class="rightsquare">
+        <p class="description">
+            Join Kudat Town now and live the most exciting adventures while meeting the locals, buying your own land and building a cute house on the beach.<br><br>
+            Don't wait, it could get filled with tourists soon!
+        </p>
+        
+        <form method="POST">
+            <div class="form_data">
+            <div class="data">
+                <label for="user_name">USER NAME*</label>
+                <input type="text" id="user_name" name="user_name" required>
+            </div>
+            <div class="data">
+                <label for="birthday">DATE OF BIRTH*</label>
+                <input type="date" id="birthday" name="birthday" required placeholder="">
+            </div>
+            <div class="data">
+                <label for="email">EMAIL*</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="data">
+                <label for="phone">PHONE NUMBER</label>
+                <input type="number" id="phone" name="phone">
+            </div>
+            <div class="data">
+                <label for="password">PASSWORD*</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="data">
+                <label for="password_repeat">CONFIRM PASSWORD*</label>
+                <input type="password" id="password_repeat" name="password_repeat" required>
+            </div>
+            </div>
+        <div class="form_submit">
+            <div class="terms">
+                <input type="checkbox" id="terms_and_conditions" name="terms_and_conditions" required>
+                <label for="terms_and_conditions">I have read the <a href="https://github.com/irizow">Terms and conditions</a></label>  
+            </div>
+            <div>
+            
+                <button type="submit">Join Now!</button><p class="log-in">already registered? <a href="https://github.com/irizow">Log in</a>
+            </div>
+            
+            </p>
+        </div>
+            
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
