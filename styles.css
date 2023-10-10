@@ -25,12 +25,12 @@ body {
 .leftsquare {
     background-image: url("images/backgroundsignup.png");
     background-size: contain;
-    height: 100vh;
+    height: 130vh;
     width: 40vw;
 }
 
 .rightsquare {
-    height: 100vh;;
+    height: 130vh;
     width: 60vw;
     background-color: rgb(197, 255, 197);
     color: black;
@@ -47,13 +47,17 @@ body {
 .form_data {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: 0.2rem;
-    padding: 50px;
+    padding: 40px 10px;
     box-shadow: 2px 2px 8px green;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-around;
+    gap: 20px;
     background-color: white;
     font-size: 18px;
+}
+.data {
+    width: 200px;
 }
 
 .form_submit {
